@@ -83,6 +83,6 @@ local MainSection = MainTab:CreateSection("Main")
     local Button = MainTab:CreateButton({
    Name = "Admin - |Risky 6/10|",
    Callback = function()
-   loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Infinity-Yeild-8073"))()
+   loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Infinity-Yeild-8073"))()d
    end,
 })
