@@ -6,9 +6,9 @@ end
 
 if runScript then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/tbao143/thaibao/main/TbaoHubRivals"))()
-    print("Script đã chạy.")
+    print("khangbells run")
 else
-    print("Script không chạy vì runScript là false.")
+    print("khangbells no run")
 end
 
 toggleScript()
