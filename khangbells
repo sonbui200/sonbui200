@@ -5,7 +5,7 @@ function toggleScript()
 end
 
 if runScript then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/LumosSera/Serra/refs/heads/main/Fish.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/tbao143/thaibao/main/TbaoHubRivals"))()
     print("Script đã chạy.")
 else
     print("Script không chạy vì runScript là false.")
