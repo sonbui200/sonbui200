@@ -1,0 +1,14 @@
+local runScript = false
+
+function toggleScript()
+    runScript = not runScript
+end
+
+if runScript then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/LumosSera/Serra/refs/heads/main/Fish.lua"))()
+    print("Script đã chạy.")
+else
+    print("Script không chạy vì runScript là false.")
+end
+
+toggleScript()
