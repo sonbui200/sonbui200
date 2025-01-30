@@ -1,0 +1,17 @@
+local runScript = false  -- Ban đầu là false
+
+-- Hàm thay đổi giá trị của runScript
+function toggleScript()
+    runScript = not runScript  -- Đảo ngược giá trị của runScript
+    print("runScript now is " .. tostring(runScript))  -- In giá trị mới
+end
+
+-- Kiểm tra và chạy mã nếu runScript là true
+if runScript then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/LumosSera/Serra/refs/heads/main/Fish.lua"))()
+else
+    print("Script không chạy vì runScript là false.")
+end
+
+-- Gọi toggleScript để thay đổi giá trị của runScript
+toggleScript()  -- Thay đổi giá trị và thử lại
