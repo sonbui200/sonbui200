@@ -1,4 +1,4 @@
-local runScript = true
+local runScript = false
 
 function toggleScript()
     runScript = not runScript
