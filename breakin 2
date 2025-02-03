@@ -1,0 +1,8 @@
+local allowedUsername = "TênTàiKhoảnCủaBạn"
+local player = game.Players.LocalPlayer
+
+if player.Name == allowedUsername then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Harlenhub/Harlen-Scripts-New-/main/harlenscripts"))()
+else
+    player:Kick("not same account")
+end
