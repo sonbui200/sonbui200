@@ -1,7 +1,15 @@
-local allowedUsername = "TênTàiKhoảnCủaBạn"
+local allowedUsernames = {"khang122198", "khangpower03", "sonwfin"}
 local player = game.Players.LocalPlayer
+local isValidUser = false
 
-if player.Name == allowedUsername then
+for _, username in ipairs(allowedUsernames) do
+    if player.Name == username then
+        isValidUser = true
+        break
+    end
+end
+
+if isValidUser then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Harlenhub/Harlen-Scripts-New-/main/harlenscripts"))()
 else
     player:Kick("not same account")
